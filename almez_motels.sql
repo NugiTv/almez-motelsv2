@@ -117,9 +117,24 @@ INSERT INTO `almez_motels` (`key`, `owner`) VALUES
 	('89', ''),
 	('90', ''),
 	('91', '');
-/*!40000 ALTER TABLE `almez_motels` ENABLE KEYS */;
 
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
+CREATE TABLE IF NOT EXISTS `almez_motels_pinkcage` (
+  `key` varchar(50) DEFAULT NULL,
+  `owner` varchar(50) NOT NULL DEFAULT ''
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `almez_motels_pinkcage` (`key`, `owner`) VALUES
+	('92', ''),
+	('93', ''),
+	('94', ''),
+	('95', ''),
+	('96', ''),
+	('97', ''),
+	('98', ''),
+	('99', ''),
+	('100', ''),
+	('101', ''),
+	('102', ''),
+	('103', ''),
+	('104', ''),
+	('105', '');
